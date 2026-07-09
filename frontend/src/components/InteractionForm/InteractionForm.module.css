@@ -1,0 +1,140 @@
+.formContainer {
+  background: var(--color-panel);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px 28px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.formHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.formHeader h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.statusPill {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #eef1f6;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.statusPill.validated {
+  background: #e6f7ec;
+  color: var(--color-success);
+}
+
+.helperText {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 4px 0 20px;
+  line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.value {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 12px;
+  background: #f8f9fb;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.value.empty {
+  color: var(--color-neutral);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.chipRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  background: #e8edfb;
+  color: var(--color-primary-dark);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 999px;
+}
+
+.sentimentBadge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.sentimentBadge.positive {
+  background: #e6f7ec;
+  color: var(--color-success);
+}
+.sentimentBadge.negative {
+  background: #fbeaea;
+  color: var(--color-danger);
+}
+.sentimentBadge.neutral {
+  background: #eef1f6;
+  color: var(--color-text-muted);
+}
+
+.missingBanner {
+  margin-top: 20px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fff6e5;
+  color: #8a5a00;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.savedBanner {
+  margin-top: 20px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #e6f7ec;
+  color: var(--color-success);
+  font-size: 13px;
+  font-weight: 600;
+}
