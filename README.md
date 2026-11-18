@@ -1,4 +1,4 @@
-# AI-First HCP CRM — Log HCP Interaction Module
+# Log HCP Interaction Module
 
 An AI-first "Log HCP Interaction" screen (Veeva-CRM style) where the **only**
 way to populate the structured interaction form is by chatting with an AI
